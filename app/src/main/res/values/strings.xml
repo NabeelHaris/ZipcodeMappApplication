@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BootCam Application</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="zip_hint">Please enter a zip-code</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

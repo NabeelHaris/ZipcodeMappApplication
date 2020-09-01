@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <LinearLayout
+            android:layout_width="274dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="15dp">
+            <TextView
+                android:id="@+id/location_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Devslopes Tower"
+                android:textColor="#2f2f2f"
+                android:textSize="18dp"/>
+            <TextView
+                android:id="@+id/location_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="762 Higuera St. STE 215, San Luis Obispo, CA 93401"
+                android:textSize="16dp"
+                android:paddingTop="5dp"/>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/location_img"
+            android:layout_width="50dp"
+            android:layout_height="80dp"
+            android:src="@drawable/slo"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
